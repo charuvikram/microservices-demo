@@ -323,7 +323,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: frontendNP
+  name: frontend-np
 spec:
   type: NodePort
   selector:
