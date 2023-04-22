@@ -253,8 +253,8 @@ spec:
             capabilities:
               drop:
                 - ALL
-            privileged: false
-            readOnlyRootFilesystem: true
+#            privileged: false
+#            readOnlyRootFilesystem: true
           image: gcr.io/google-samples/microservices-demo/frontend:v0.6.0
           ports:
           - containerPort: 8080
